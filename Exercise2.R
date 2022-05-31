@@ -3,6 +3,7 @@
 
 
 
+
 #Zuerst muss das esoph dataset geladen werden
 data("esoph")
 
@@ -19,5 +20,12 @@ colnames(esoph)
 esoph
 
 
+
+
+data("esoph")
+
+esoph
+
+summary(esoph)
 
 
