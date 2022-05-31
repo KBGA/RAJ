@@ -12,12 +12,12 @@ class(esoph)
 #Das esoph-Dataset ist ein data.frame. Ich kann dann die Größe/Dimension ermitteln.
 dim(esoph) #Das esoph-Dataset hat 88 Zeilen und 5 Spalten
 
+#Jetzt werden die Namen der Spalten angezeigt
+colnames(esoph)
 
 
 esoph
 
 
-colnames(esoph)
 
-class(esoph)
-dim(esoph)
+
