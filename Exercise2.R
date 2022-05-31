@@ -3,6 +3,7 @@
 
 
 
+<<<<<<< HEAD
 #Zuerst muss das esoph dataset geladen werden
 data("esoph")
 
@@ -20,4 +21,12 @@ esoph
 
 
 
+=======
+
+data("esoph")
+
+esoph
+
+summary(esoph)
+>>>>>>> 3824ee1c2dc506f80e68e9e87ec701e997737224
 
