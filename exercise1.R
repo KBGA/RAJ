@@ -10,8 +10,7 @@ generate_numbers <- function() {
   
   
   while (userEntryNum != generatedNumber) {
-    print("Raten Sie welche Nummer der Computer gerade generiert hat.")
-    print("Schreiben Sie 111 um das Spiel zu stoppen.")
+    print("Raten Sie welche Nummer der Computer gerade generiert hat. Schreiben Sie 111 um das Spiel zu stoppen.")
     userEntry <- readline()
     cat("", leereZeile = "\n")
     
