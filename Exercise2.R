@@ -3,7 +3,7 @@
 
 
 
-
+<<<<<<< HEAD
 #Zuerst muss das esoph dataset geladen werden
 data("esoph")
 
@@ -14,26 +14,19 @@ class(esoph)
 dim(esoph) #Das esoph-Dataset hat 88 Zeilen und 5 Spalten
 
 #Jetzt werden die Namen der Spalten angezeigt
-colnames(esoph) #[1] "agegp"     "alcgp"     "tobgp"     "ncases"    "ncontrols"
-
-names(esoph) #[1] "agegp"     "alcgp"     "tobgp"     "ncases"    "ncontrols"
-
-
-#Jetzt haben wir die Namen der Spalten und ich kann als Chart anzeigen wie viele
-#Krebsfälle es pro Altersgruppe gibt.
-stripchart(esoph$ncases ~ esoph$agegp)
-
-plot(esoph$agegp, esoph$ncases)
-
-#Ich kann dann die Anzahl der Krebsfällen im Verhähltnis zu dem Alkoholkonsum 
-
-boxplot(esoph$ncases ~ esoph$alcgp)
-boxplot(esoph$ncases ~ esoph$tobgp)
-#boxplot(ncases ~ alcgp, data = esoph)
+colnames(esoph)
 
 
 esoph
 
-summary(esoph)
 
+
+=======
+
+data("esoph")
+
+esoph
+
+summary(esoph)
+>>>>>>> 3824ee1c2dc506f80e68e9e87ec701e997737224
 
