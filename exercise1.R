@@ -7,7 +7,7 @@ generate_numbers <- function() {
   
   #Eine Variable für die Nummer, die von dem Computer generiert wird.
   generatedNumber <- sample(0:100, 1)
-  
+
   
   while (userEntryNum != generatedNumber) {
     print("Raten Sie welche Nummer der Computer gerade generiert hat. Schreiben Sie 111 um das Spiel zu stoppen.")
