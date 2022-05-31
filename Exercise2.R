@@ -16,13 +16,8 @@ dim(esoph) #Das esoph-Dataset hat 88 Zeilen und 5 Spalten
 #Jetzt werden die Namen der Spalten angezeigt
 colnames(esoph)
 
+names(esoph)
 
-esoph
-
-
-
-
-data("esoph")
 
 esoph
 
